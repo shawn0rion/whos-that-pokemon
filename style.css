@@ -1,0 +1,50 @@
+.pokemon-img{
+    filter:brightness(0);
+}
+
+.pokemon-img.show{
+    filter: unset;
+}
+
+.quiz-container{
+    display:none;
+}
+
+.quiz-container.show{
+    display: unset;
+}
+
+.results-container{
+    display:none;
+}
+
+.results-container.show{
+    display: unset;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+button.incorrect{
+    background-color: red;
+}
+
+button.correct{
+    background-color: #06db06c5;
+}
+
+.next-btn{
+    cursor:not-allowed;
+}
+
+.next-btn.active{
+    cursor: pointer;
+
+}
+
+.lineup{
+    display: flex;
+    margin: auto;
+}
