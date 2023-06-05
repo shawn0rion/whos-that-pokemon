@@ -8,22 +8,33 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="quiz-container">
-                <img src="" alt="" class="pokemon-img">
-            <div class="choices">
-                <button class="choice"></button>
-                <button class="choice"></button>
-                <button class="choice"></button>
-                <button class="choice"></button>
-            </div>
-            <button class="next-btn">Next</button>
-        </div> 
-        <div class="results-container">
-            <div class="lineup"></div>
-            <div class="score"></div>
+    <div class="quiz-container">
+        <div class="live-stats">
+            <div class="live-countdown">xxx</div>
+            <div class="live-score">xxx</div>
         </div>
-
+        <img src="" alt="" class="pokemon-img">
+        <div class="choices">
+            <button class="choice"></button>
+            <button class="choice"></button>
+            <button class="choice"></button>
+            <button class="choice"></button>
+        </div>
+        <button class="next-btn">Next</button>
+    </div> 
+    <div class="results-container">
+        <div class="lineup"></div>
+        <button class="quiz-btn">Start</button>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-name">Score: </div>
+                <div class="score-value"></div>
+            </div>
+            <div class="stat">
+                <div class="stat-name">Time Elapsed: </div>
+                <div class="time-value"></div>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
